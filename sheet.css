@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div#container{
+    width: 100vw;
+    height: 1750px;
+    background-color: rgb(227, 220, 209);
+}
+
+header{
+    width: 830px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    position: relative;
+    top: -70px;
+    left: 90px;
+    z-index: 2;
+}
+
+img#LogoTheSquareHeader{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    left: 320px;
+    
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 40px;
+    background-color:rgba(255, 255, 255, 0.764);
+    margin-top: 10px;
+
+
+}
+
+header nav a{
+    position: relative;
+    padding: 12px 10px;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 9pt;
+    text-decoration: none;
+    color: rgb(88, 85, 85);
+    
+}
+
+header div#PesquisaHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 8px;
+    background-color:#d6bb4d;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+header div#PesquisaHeader img{
+    width: 25px;
+    height: 25px;
+}
+
+main{
+    width: 100vw;
+    height: 440px;
+}
+
+main video{
+    width: 1520px;
+    height: 570px;
+    object-fit: fill;
+    position: absolute;
+    z-index: 0;
+    top: -2px;
+}
+
+div#ContainerPosters{
+    width: 100vw;
+    height: 440px;
+}
+
+div#TitulosPrincipais{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 1150px;
+}
+
+div.NomeTitulosPrincipais{
+    display: flex;
+    margin-left: 200px;
+}
+
+div.NomeTitulosPrincipais img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 2px;
+}
+
+div.NomeTitulosPrincipais h2{
+    font-family: sans-serif;
+    color: #c2aa47;
+    font-weight: 10pt;
+    margin-left: 10px;
+    font-size: 20pt ;
+
+}
+
+section{
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+section #carouselExampleAutoplaying{
+    border: solid #c2aa47;
+    width: 230px;
+    height:330px;
+    margin-right: 25px;
+    padding: 10px;
+
+}
+
+section #posterFestaJunina{
+    border: solid #c2aa47;
+    padding: 10px;
+    display: flex;
+}
+
+div#Containerlojas{
+    height: 270px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#Containerlojas h1{
+    height: 50px;
+    font-size: 20pt;
+    color: #c2aa47;
+}
+
+div#lazeres{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#Containerlojas figure{
+    border: solid #c2aa47;
+    background-color: #c2aa47;
+    border-radius: 50px;
+    width: 110px;
+    height: 110px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#Containerlojas figure img{
+    width: 40px;
+}
+
+footer{
+    width: 100vw;
+    height: 420px;
+    background-color: #c2aa47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div#CadastreEmail{
+    height: 100px;
+    width: 550px;
+    margin-top: -130px;
+    margin-left: 100px;
+
+}
+
+footer div#CadastreEmail form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+div#formInput{
+    display: flex;
+    gap: 5px;
+}
+
+div#CadastreEmail button{
+    width: 150px;
+    background-color: #776932;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+div#DescricaoFooter{
+    font-size: 10pt;
+}
+
+div#DescricaoFooter p{
+    color: white;
+}
+
+div#DescricaoFooter h3{
+    font-size: 15pt;
+    color: rgb(75, 74, 74);
+}
+
+div#LogoFinalFooter{
+    height: 300px;
+    width: 300px;
+    color: white;
+    
+
+}
+
+div#LogoFinalFooter img{
+    width: 130px;
+    height: 130px;
+}
+
+
